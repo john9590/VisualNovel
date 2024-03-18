@@ -1,0 +1,16 @@
+{
+    "Names": [
+        {
+            "ID": "class_room",
+            "KR": "class_room",
+            "EN": "Forest",
+            "JP": "森"
+        },
+        {
+            "ID": "city",
+            "KR": "도시",
+            "EN": "City",
+            "JP": "都市"
+        }
+    ]
+}
