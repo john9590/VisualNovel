@@ -20,10 +20,6 @@ namespace QVN.Story
         public Sprite GetStandingAsset(string name, FEELING feeling)
         {
             /*String ID와 감정에 해당하는 Asset의 sprite를 반환한다.*/
-            //var id = Data.NameStaticData.GetCharacterNameData().GetID(name);
-            //if (id == null){
-            //    return null;
-            //}
             var standingData = _standingAssets.Find(x => x.ID.Equals(name));
             if (standingData.Equals(null)){
                 return null;

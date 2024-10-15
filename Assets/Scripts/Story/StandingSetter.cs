@@ -90,7 +90,6 @@ namespace QVN.Story
             if (members==null) return;
             var distance = 1920.0f / (_standingSlots.Count-members.Length);
             var cur_dis = -960.0f;
-            //Debug.Log(_standingSlots.Count);
             for (int i = 0; i < _standingSlots.Count; i++) {
                 bool condition;
                 do {

@@ -66,7 +66,6 @@ namespace QVN.Story
             DefaultSystem.EffectSoundSystem.GetInstance?.PlayEffect("button");
             _button1.SetActive(true);
             _button2.SetActive(true);
-            //_button3.SetActive(true);
             _button4.SetActive(true);
             _button5.SetActive(true);
             _button6.SetActive(true);
@@ -87,7 +86,6 @@ namespace QVN.Story
             _button6.SetActive(false);
             if (_animation != null && DOTween.IsTweening(_animation))
                 return;
-            //_animation = _canvas.DOFade(0, 0.5f).OnComplete(() => _active.SetActive(false)).target;
         }
     }
 }
